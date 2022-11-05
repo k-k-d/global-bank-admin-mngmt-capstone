@@ -6,7 +6,7 @@ namespace bank.Entities
     public class Branch
     {
         [Key]
-        public int branchid { get; set; }
+        public int BranchId { get; set; }
         [StringLength(20)]
         [Column(TypeName = "varchar")]
         [Required]

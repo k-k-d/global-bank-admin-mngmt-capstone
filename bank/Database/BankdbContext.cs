@@ -8,9 +8,9 @@ namespace bank.Database
 {
     public class BankdbContext:DbContext
     {
-        public DbSet<Branch> Branch { get; set; }
-        public DbSet<admin> admin { get; set; }
-        public DbSet<Customer> Customer { get; set; }
+        public DbSet<Branch> Branches { get; set; }
+        public DbSet<admin> admins { get; set; }
+        public DbSet<Customer> Customers { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //define connection string.

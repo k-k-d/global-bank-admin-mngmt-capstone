@@ -14,7 +14,7 @@ namespace bank.Database
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //define connection string.
-            optionsBuilder.UseSqlServer(@"my connection string");
+            optionsBuilder.UseSqlServer(@"Data Source=WINDOWS-UNR7VLH\SQLEXPRESS;Initial Catalog=Bank;Integrated Security=True");
         }
     }
 }

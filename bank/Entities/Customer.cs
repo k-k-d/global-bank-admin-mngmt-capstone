@@ -10,7 +10,7 @@ namespace bank.Entities
     [Table("Customer")]
     public class Customer
     { 
-            [Key]
+          [Key]
          public int Accountno { get; set; }
         public int Customerno { get; set; }
         public int branchid { get; set; }

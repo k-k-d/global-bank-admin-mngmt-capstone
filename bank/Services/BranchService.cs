@@ -1,4 +1,9 @@
-﻿namespace bank.Services
+﻿using bank.Database;
+using bank.Entities;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace bank.Services
 {
     public class BranchService
     {
